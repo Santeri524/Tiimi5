@@ -21,6 +21,8 @@ header {
     color: white;
     background:brown;
     background-size: cover; 
+    background:  url(kuvia/pexels-daria-shevtsova-789786.jpg) no-repeat center center;
+    background-size: cover; 
     text-align: center;
-    height: 10em;
+    height: 15em;
 }
