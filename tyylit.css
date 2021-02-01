@@ -8,8 +8,13 @@ html {
     box-sizing: inherit;
 }
 
+head {
+    font-family: sans-serif;
+}
+
 body {
-    background-color:lightgreen;
+    background-color:wheat;
+    font-family: sans-serif;
 }
 
 /* link styles */
@@ -25,9 +30,11 @@ header {
     background-size: cover; 
     text-align: center;
     height: 15em;
+    font-family: sans-serif;
 }
 li {
     text-align: left;
+    font-family: sans-serif;
 }
 img {
     max-width:100%;
@@ -40,15 +47,18 @@ footer {
     height: 15em;
     text-align: center;
     padding: 1cm;
+    font-family: sans-serif;
 }
 article {
     padding:0.1cm;
 }
 h1 {
     text-align: center;
+    font-family: sans-serif;
 }
 main {
     text-align: center;
+    font-family: sans-serif;
 }
 .grid-container {
     display: grid;
