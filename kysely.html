@@ -1,12 +1,36 @@
 <html>
-<body>
+    <script> 
+        function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    } 
+    </script>
 <style>
 @import url(tyylit.css);
 </style>
+
+
+<body>
+    <nav>
+        <!-- hakee hampurilaisikonin menuvalikkoa varten, älä poista -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+     <div class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Etusivu</a>
+       <a href="tuotteetJaPalvelut.html">Tuotteet ja Palvelut</a>
+       <a href="yhteystiedot.html">Yhteystiedot</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+     </div>
+</nav>
 <br>
 <h1> Kiitos palautteesta! </h1>
 
-<h3><u><a href="index.html">Takaisin etusivulle.</a></u</h3>
 
 </body>
 </html>
