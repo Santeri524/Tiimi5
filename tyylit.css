@@ -37,8 +37,11 @@ li {
     font-family: sans-serif;
 }
 img {
-    max-width:100%;
+    max-width:80%;
     height: 15em;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 footer {
     background:darkslategrey;
@@ -64,10 +67,6 @@ h3 {
     text-align: center;
     font-family: sans-serif;
 }
-
-img {
-    align-items: center;
-}
 p{
     margin-left: auto;
     margin-right: auto;
@@ -84,23 +83,28 @@ main {
     font-family: sans-serif;
 }
 .grid-container {
-    display: grid;
+  display: grid;
   height: auto;
-  align-content: end;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  background-color: #ddd;
-  padding: 10px;
-  grid-gap: 2cm;
+  align-content: center;
+  grid-gap: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom:70px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-left: auto;
-  margin-right: auto;
+
 }
+.laatikko {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  align-content: center;
+}
+
 .isotkuvat {
-    margin: auto;
-    width: 100%;
-    border: 3px solid black;
-    padding: 10px;
+    min-width: 100%;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
     
   }
   .button1 {
