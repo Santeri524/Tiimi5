@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yhteystiedot</title>
-    </head>
-    <style>
-        @import url(tyylit.css);
-        </style>
-            <script> 
-                function myFunction() {
-              var x = document.getElementById("myTopnav");
-              if (x.className === "topnav") {
-                x.className += " responsive";
-              } else {
-                x.className = "topnav";
-              }
-            } 
-            </script>
+<title>Yhteystiedot</title>
+<style>
+   @import url(tyylit.css);
+ </style>
+ </head>
+
+  <script> 
+     function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+       } 
+  </script>
 
 <body>
     <nav>
@@ -27,6 +28,7 @@
                <a href="index.html" class="active">Etusivu</a>
                <a href="tuotteetJaPalvelut.html">Tuotteet ja Palvelut</a>
                <a href="yhteystiedot.html">Yhteystiedot</a>
+		<a href="english.html">In English</a>
                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                  <i class="fa fa-bars"></i>
                </a>
@@ -39,15 +41,37 @@
 <br>
 <h3>Olemme täällä sinua varten;</h3>
 <div class="grid-container"> </div>
-<p>Taikuri Taru</p>
-<br>
-<p>Seikkailija Santeri</p>
-<br>
-<p>Ohikulkija Olli</p>   
-<br>
-<p>Mäkihyppääjä Mira</p>
-<br>
-<p>Nostaja Niko</p>
 
-    </body>
+<p><b>Toimitusjohtaja</b></p>
+<p>Taru Perkola (taru.perkola@edu.turkuamk.fi)</p>
+<br>
+<p><b>Markkinointijohtaja</b></p>
+<p>Santeri Sillanpää (santeri.sillanpaa@edu.turkuamk.fi)</p>
+<br>
+<p><b>Asiakkuusvastaava</b></p>
+<p>Olli-Pekka Miesvirta (olli-pekka.miesvirta@edu.turkuamk.fi)</p>   
+<br>
+<p><b>Talouspäällikkö</b></p>
+<p>Mira Saarinen (mira.saarinen@edu.turkuamk.fi)</p>
+<br>
+<p><b>Henkilöstöjohtaja</b></p>
+<p>Niko Harberg (niko.harberg@edu.turkuamk.fi)</p>
+<br>
+
+<form name="palautekysely" method="post" action="kysely.html">
+
+	<h4>Lähetä meille palautetta!</h4>
+
+	Nimi:<input type="text" name="nimi" size="20" /><br>
+	Sähköposti:<input type="text" name="email" size="20" /><br>
+	<p>		
+	<textarea name="palaute" rows="5" cols="20"> </textarea>
+	<p>
+	<input type="submit" value="Lähetä" />
+	<input type="reset" value="Tyhjennä" />
+
+</form>
+<footer>
+</footer>
+</body>
 </html>

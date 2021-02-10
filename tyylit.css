@@ -18,8 +18,8 @@ body {
 }
 
 /* link styles */
-a:link, a:visited { color:blue }
-a:focus, a:hover, a:active { color: red }
+a:link, a:visited { color:black }
+a:focus, a:hover, a:active { color:blue }
 
 /* header styles */
 header {
@@ -41,10 +41,9 @@ img {
     height: 15em;
 }
 footer {
-    color: black;
-    background:  url(kuvia/shutterstock_376532611.jpg) no-repeat center center;
+    background:darkslategrey;
     background-size: cover; 
-    height: 15em;
+    height: 6em;
     text-align: center;
     padding: 1cm;
     font-family: sans-serif;
@@ -56,8 +55,32 @@ h1 {
     text-align: center;
     font-family: sans-serif;
 }
-main {
+h2 {
     text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    align-items: center;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    font-family: sans-serif;
+}
+main {
     font-family: sans-serif;
 }
 .grid-container {
