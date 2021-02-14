@@ -39,17 +39,18 @@ li {
 img {
     max-width:80%;
     height: 15em;
-    align-items: center;
+    display: grid;
     margin-left:auto;
     margin-right:auto;
 }
 footer {
-    background:darkslategrey;
-    background-size: cover; 
-    height: 6em;
-    text-align: center;
-    padding: 1cm;
-    font-family: sans-serif;
+  
+  bottom:0px;
+  background:darkslategrey;
+  width:100%;; 
+  height: 6em;
+  text-align: center;
+  font-family: sans-serif;
 }
 article {
     padding:0.1cm;
@@ -70,13 +71,13 @@ h3 {
 p{
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
+    /*width: 50em;*/
 }
 
 form {
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
+    /*width: 50em;*/
     font-family: sans-serif;
 }
 main {
@@ -87,10 +88,9 @@ main {
   height: auto;
   align-content: center;
   grid-gap: 20px;
-  padding-right: 60px;
-  padding-left: 60px;
   padding-bottom:70px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  text-align: center;
 
 }
 .laatikko {
@@ -148,6 +148,9 @@ main {
     display: none;
   } 
   @media screen and (max-width: 600px) {
+    .body {
+      font-size: x-small;
+    }
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
