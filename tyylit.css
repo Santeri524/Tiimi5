@@ -89,6 +89,7 @@ form {
 }
 main {
     font-family: sans-serif;
+    padding:4cm;
 }
 .grid-container {
   display: grid;
@@ -150,9 +151,6 @@ main {
     color:black;
   }
 
-  .main {
-    padding:4cm;
-  }
   
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
@@ -161,9 +159,6 @@ main {
   @media screen and (max-width: 600px) {
     .body {
       font-size: x-small;
-    }
-    .main {
-      padding:0.25cm;
     }
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -184,5 +179,10 @@ main {
       float: none;
       display: block;
       text-align: left;
+    }
+  }
+  @media screen and (max-width: 600px) {
+  main {
+      padding:0.4cm;
     }
   }
