@@ -146,7 +146,8 @@ main {
   }
   
   /* Add an active class to highlight the current page */
-  .topnav a.active {
+  .topnav li.active a:focus,
+  .topnav li.active a{
     background-color:peachpuff;
     color:black;
   }
